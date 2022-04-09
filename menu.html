@@ -1,0 +1,123 @@
+<!--Par Lacsamana, Kriza et Pouliot, Sylvain-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!-- MDB et Swiper Framework CSS -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <title>Menu Belle Maison</title>
+</head>
+
+<!-- Navbar START -->
+<nav class="sticky-top navbar navbar-expand-lg navbar-light" style="background: rgb(160, 134, 134)">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarCentered"
+            aria-controls="navbarCentered" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+
+        </button>
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCentered">
+            <!-- Left links -->
+            <ul class="navbar-nav mb-lg-0" style="list-style-type: none;">
+                <li class="nav-item"><a class="nav-link text-white" href="menu.html" role="link"
+                        aria-controls="#picker-editor" draggable="false">Menu</a></li>
+                <li class="nav-item dropdown nav-link">
+                    <a href="typesDeProprietes.html" class="text-white">Propriétés</a>
+                    <a class="dropdown-toggle text-white" role="button" id="navbarDropdownMenuLink"
+                        data-mdb-toggle="dropdown" data-hover="dropdown" aria-expanded="false">
+                    </a>
+                    <ul class="sub-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="maison.html">Maisons</a></li>
+                        <li><a class="dropdown-item" href="townhouse.html">Townhouses</a></li>
+                        <li><a class="dropdown-item" href="appartement.html">Appartements</a></li>
+                        <li><a class="dropdown-item" href="condo.html">Condos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link text-white" href="infosClients.html" role="link"
+                        aria-controls="#picker-editor" draggable="false">Infos Clients</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="calculHypotheque.html" role="link"
+                        aria-controls="#picker-editor" draggable="false">Calcul Hypothèque</a></li>
+            </ul>
+
+
+
+        </div>
+        <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+</nav>
+<!-- Navbar END -->
+
+<!-- Background image -->
+<div id="intro" class="bg-image shadow-2-strong">
+    <div class="d-flex align-items-center text-center bg-image" style="
+        background-image: url(images/background-image.jpg); background-position: center center; background-size: cover;
+        background-attachment: fixed; width: 100%; height: 90vh;">
+        <div class="container">
+            <div class="row justify-content-center">
+
+
+                <div class="col d-flex justify-content-center">
+                    <div class="card border border-outline mx-4 mx-md-6 "
+                        style="background: hsla(0, 0%, 100%, 0.775); ">
+                        <div class="card-body px-4 py-6 px-md-5">
+                            <h1 class="display-3 fw-bold ls-tight mb-2"> <span>Belle Maison</span></h1>
+                            <!-- affiche date/heure -->
+                            <p id="dateCourr" class="mb-0" style="font-style: italic; font-size: 30px;"></p>
+                            <p id="heureCourr" class="mb-4" style="font-style: italic; font-size: 30px;"></p>
+                            <p>Bienvenue sur le site Belle Maison, <br> où vous pourrez trouver la propriété de vos
+                                rêves!
+
+                                <br> Cliquez sur "Type de propriétés" afin de voir les propriétés <br> que nous avons à
+                                votre disposition.
+
+                                <br> Si vous êtes intéressé par l'une d'entre elles, <br> cliquez sur "Infos client"
+                                afin de remplir le formulaire. <br> Nous vous contacterons très rapidement!
+
+                                <br> Si vous êtes curieux de savoir combien pourrait coûter votre future propriété, <br>
+                                un calculateur de paiement mensuel a été mis à votre disposition. <br> Vous n'avez qu'à
+                                cliquer sur "Calcul hypothèque".
+
+                                <br> Merci de votre visite et au plaisir de vous comptez parmi notre clientèle
+                                satisfaite!
+
+                                <br> L'équipe de Belle-Maison
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- Background image -->
+</header>
+
+<footer class="bg-light text-center text-lg-start">
+    <div class="footer">
+        <div class="text-center p-3 text-white"
+            style="position: fixed; left: 0; bottom: 0; width: 100%; background: rgb(160, 134, 134)">
+            © 2022 Copyright: Belle Maison par Kriza Lacsamana et Sylvain Pouliot
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="belleMaisonJS.js"></script>
+
+
+</html>
